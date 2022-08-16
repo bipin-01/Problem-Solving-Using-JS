@@ -39,3 +39,9 @@ const vegetables = ['Potato', 'Pea', 'Carrot', 'Cabbage']
 const sliceVeg = vegetables.slice(0, 3)
 console.log(sliceVeg)
 console.log(vegetables)
+
+// split; will not modify the original string
+const splitMessage = 'Bipin-is-a-Dev'
+console.log(splitMessage.split('-'));
+console.log(splitMessage.split('-', 2))
+

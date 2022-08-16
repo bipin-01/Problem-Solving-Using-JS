@@ -45,3 +45,8 @@ const splitMessage = 'Bipin-is-a-Dev'
 console.log(splitMessage.split('-'));
 console.log(splitMessage.split('-', 2))
 
+// indexOf method
+
+let randomItems = ['mango', 'apple', 'eraser', 'duster', 'Jug', 'mug']
+console.log(randomItems.indexOf('Jug'))                 // returns 4
+console.log(randomItems.indexOf('Hatti'))             // returns -1 if item is not present

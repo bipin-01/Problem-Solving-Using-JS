@@ -27,3 +27,15 @@ console.log(browser)
 const programmingLanguage = ['javascript', 'c++', 'HTML']    // opps HTML
 programmingLanguage.pop();
 console.log(programmingLanguage)
+
+// splice 
+// will alter the original array
+const fruits = ['mango', 'apple', 'banana', 'Lichi']
+fruits.splice(2, 2, 'Gauva', 'Pineapple')
+console.log(fruits)
+
+// slice
+const vegetables = ['Potato', 'Pea', 'Carrot', 'Cabbage']
+const sliceVeg = vegetables.slice(0, 3)
+console.log(sliceVeg)
+console.log(vegetables)

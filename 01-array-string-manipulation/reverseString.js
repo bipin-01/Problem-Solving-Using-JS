@@ -2,7 +2,7 @@
 // for e.g. if you are given 'Bipin Is a Dev'
 // The output should be 'veD a sI nipiB'
 
-const reverseString = (str)  => {
+const reverseString = (str)  => {           // O(n)
 
     //check Input
 

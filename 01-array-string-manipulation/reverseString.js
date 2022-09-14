@@ -21,3 +21,12 @@ const reverseString = (str)  => {
 }
 
 console.log(reverseString(undefined));
+
+
+
+
+// other js inbuild function to perform the same operation 
+// one line solution using js inbuilt functionalities
+
+const reverse1 = str => str.split('').reverse().join('');
+const reverse2 = str => [...str].reverse().join('');
